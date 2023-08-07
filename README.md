@@ -6,8 +6,8 @@ Combines the power of language and vision processing for food detection and nutr
 The estimations are not realiable and the model halluciates a lot. Just for fun.
 
 <p float="left">
-  <img src="/assets/out_pizza.png" width="100" />
-  <img src="/assets/out_waffle.png" width="100" /> 
+  <img src="/assets/out_pizza.png" width="600" />
+  <img src="/assets/out_waffle.png" width="600" /> 
 </p>
 
 ## Features

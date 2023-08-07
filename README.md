@@ -3,6 +3,12 @@
 
 
 Combines the power of language and vision processing for food detection and nutritional estimation. With the help of [LLaVa](https://llava-vl.github.io/), it takes an image of food and optional textual hints as input and generates a comprehensive menu name, description, and nutritional information.
+The estimations are not realiable and the model halluciates a lot. Just for fun.
+
+<p float="left">
+  <img src="/assets/out_pizza.png" width="100" />
+  <img src="/assets/out_waffle.png" width="100" /> 
+</p>
 
 ## Features
 
@@ -21,6 +27,7 @@ Combines the power of language and vision processing for food detection and nutr
 - Python 3.7 or higher
 - torch (tested 2.0)
 - torchvision
+- 7875MiB VRAM (4bit)
 
 ### Installation
 ```

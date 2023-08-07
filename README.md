@@ -5,10 +5,8 @@
 Combines the power of language and vision processing for food detection and nutritional estimation. With the help of [LLaVa](https://llava-vl.github.io/), it takes an image of food and optional textual hints as input and generates a comprehensive menu name, description, and nutritional information.
 The estimations are not realiable and the model halluciates a lot. Just for fun.
 
-<p float="left">
-  <img src="/assets/out_pizza.png" width="600" />
-  <img src="/assets/out_waffle.png" width="600" /> 
-</p>
+![alt-text-1](/assets/out_waffle.png)
+![alt-text-1](/assets/out_pizza.png)
 
 ## Features
 

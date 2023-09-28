@@ -1,8 +1,6 @@
-accelerate==0.21.0
 bitsandbytes==0.41.0
 gradio==3.35.2
 gradio_client==0.2.9
 lightning==2.0.6
 llava @ git+https://github.com/haotian-liu/LLaVA.git@4f801cd99fe2006e95d9946a36710ce125075484
 numpy==1.25.2
-transformers==4.31.0

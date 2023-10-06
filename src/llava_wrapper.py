@@ -1,5 +1,5 @@
 import torch
-import transformers
+import lightning as L
 from PIL import Image
 import src.prompt_handler as prompt_handler
 
@@ -9,7 +9,7 @@ from llava.mm_utils import tokenizer_image_token, get_model_name_from_path, Keyw
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle, Conversation
 
-transformers.set_seed(42)
+L.seed_everything(42)
 
 conv_llava_v1 = Conversation(
     system="A chat between a curious human and an artificial intelligence assistant. "

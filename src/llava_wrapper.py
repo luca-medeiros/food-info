@@ -28,7 +28,7 @@ conv_llava_v1 = Conversation(
 class LLaVA:
 
     def __init__(self,
-                 model_path: str = "liuhaotian/llava-v1-0719-336px-lora-merge-vicuna-13b-v1.3",
+                 model_path: str = "liuhaotian/llava-v1.5-7b",
                  load_in_4bit: bool = True):
         self.model_path = model_path
         self.load_in_4bit = load_in_4bit
